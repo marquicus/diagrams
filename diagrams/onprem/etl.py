@@ -8,8 +8,16 @@ class _Etl(_OnPrem):
     _icon_dir = "resources/onprem/etl"
 
 
+class Airflow(_Etl):
+    _icon = "airflow.png"
+
+
 class Embulk(_Etl):
     _icon = "embulk.png"
+
+
+class Luigi(_Etl):
+    _icon = "luigi.png"
 
 
 # Aliases

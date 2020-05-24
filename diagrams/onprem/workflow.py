@@ -8,12 +8,20 @@ class _Workflow(_OnPrem):
     _icon_dir = "resources/onprem/workflow"
 
 
-class Airflow(_Workflow):
-    _icon = "airflow.png"
+class Bonitabpm(_Workflow):
+    _icon = "bonitabpm.png"
+
+
+class Camunda(_Workflow):
+    _icon = "camunda.png"
 
 
 class Digdag(_Workflow):
     _icon = "digdag.png"
+
+
+class Joget(_Workflow):
+    _icon = "joget.png"
 
 
 class Kubeflow(_Workflow):
@@ -22,6 +30,10 @@ class Kubeflow(_Workflow):
 
 class Nifi(_Workflow):
     _icon = "nifi.png"
+
+
+class Viewflow(_Workflow):
+    _icon = "viewflow.png"
 
 
 # Aliases

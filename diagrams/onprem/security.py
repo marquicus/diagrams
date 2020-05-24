@@ -8,6 +8,14 @@ class _Security(_OnPrem):
     _icon_dir = "resources/onprem/security"
 
 
+class Openldap(_Security):
+    _icon = "openldap.png"
+
+
+class Openvas(_Security):
+    _icon = "openvas.png"
+
+
 class Trivy(_Security):
     _icon = "trivy.png"
 

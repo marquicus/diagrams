@@ -64,6 +64,10 @@ class Neo4J(_Database):
     _icon = "neo4j.png"
 
 
+class Ogg(_Database):
+    _icon = "ogg.png"
+
+
 class Oracle(_Database):
     _icon = "oracle.png"
 

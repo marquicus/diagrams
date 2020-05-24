@@ -20,6 +20,14 @@ class Kibana(_Monitoring):
     _icon = "kibana.png"
 
 
+class Nagios(_Monitoring):
+    _icon = "nagios.png"
+
+
+class Pandorafms(_Monitoring):
+    _icon = "pandorafms.png"
+
+
 class Prometheus(_Monitoring):
     _icon = "prometheus.png"
 
@@ -34,6 +42,10 @@ class Splunk(_Monitoring):
 
 class Thanos(_Monitoring):
     _icon = "thanos.png"
+
+
+class Zabbix(_Monitoring):
+    _icon = "zabbix.png"
 
 
 # Aliases

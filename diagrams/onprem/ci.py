@@ -16,8 +16,16 @@ class Gitlabci(_Ci):
     _icon = "gitlabci.png"
 
 
+class Hoverfly(_Ci):
+    _icon = "hoverfly.png"
+
+
 class Jenkins(_Ci):
     _icon = "jenkins.png"
+
+
+class Sonarqube(_Ci):
+    _icon = "sonarqube.png"
 
 
 class Teamcity(_Ci):

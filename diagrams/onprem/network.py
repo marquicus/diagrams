@@ -8,14 +8,6 @@ class _Network(_OnPrem):
     _icon_dir = "resources/onprem/network"
 
 
-class Apache(_Network):
-    _icon = "apache.png"
-
-
-class Caddy(_Network):
-    _icon = "caddy.png"
-
-
 class Consul(_Network):
     _icon = "consul.png"
 
@@ -28,28 +20,12 @@ class Etcd(_Network):
     _icon = "etcd.png"
 
 
-class Haproxy(_Network):
-    _icon = "haproxy.png"
-
-
 class Internet(_Network):
     _icon = "internet.png"
 
 
-class Istio(_Network):
-    _icon = "istio.png"
-
-
-class Kong(_Network):
-    _icon = "kong.png"
-
-
 class Linkerd(_Network):
     _icon = "linkerd.png"
-
-
-class Nginx(_Network):
-    _icon = "nginx.png"
 
 
 class Pfsense(_Network):
@@ -58,14 +34,6 @@ class Pfsense(_Network):
 
 class Pomerium(_Network):
     _icon = "pomerium.png"
-
-
-class Tomcat(_Network):
-    _icon = "tomcat.png"
-
-
-class Traefik(_Network):
-    _icon = "traefik.png"
 
 
 class Vyos(_Network):
