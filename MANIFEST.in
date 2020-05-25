@@ -1,2 +1,2 @@
 include README.rst
-include resources/**/*.png
+recursive-include resources *.png
