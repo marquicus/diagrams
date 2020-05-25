@@ -147,17 +147,6 @@ Node classes list of onprem provider.
 - **diagrams.onprem.workflow.Nifi**, **NiFi** (alias)
 - **diagrams.onprem.workflow.Viewflow**
 
-## onprem.appserver
-
-- **diagrams.onprem.appserver.Gunicorn**
-- **diagrams.onprem.appserver.Javaee**
-- **diagrams.onprem.appserver.Jboss**
-- **diagrams.onprem.appserver.Tomcat**
-- **diagrams.onprem.appserver.Uvicorn**
-- **diagrams.onprem.appserver.Weblogic**
-- **diagrams.onprem.appserver.Websphere**
-- **diagrams.onprem.appserver.Wildfly**
-
 ## onprem.bus
 
 - **diagrams.onprem.bus.Activemq**
@@ -251,23 +240,17 @@ Node classes list of onprem provider.
 
 - **diagrams.onprem.survey.Lms**
 
-## onprem.web
+## onprem.network
 
-- **diagrams.onprem.web.Apache**
-- **diagrams.onprem.web.Caddy**
-- **diagrams.onprem.web.Consul**
-- **diagrams.onprem.web.Envoy**
-- **diagrams.onprem.web.Haproxy**
-- **diagrams.onprem.web.Linkerd**
-- **diagrams.onprem.web.Nginx**
-- **diagrams.onprem.web.Pfsense**
-- **diagrams.onprem.web.Pomerium**
-- **diagrams.onprem.web.Traefik**
+- **diagrams.onprem.network.Internet**
 
-## onprem.config
+## onprem.api
 
-- **diagrams.onprem.config.Etcd**
-- **diagrams.onprem.config.Zookeeper**
+- **diagrams.onprem.api.Istio**
+- **diagrams.onprem.api.Kong**
+- **diagrams.onprem.api.Redhat3Scale**
+- **diagrams.onprem.api.Tyk**
+- **diagrams.onprem.api.Umbrella**
 
 ## onprem.cisco
 
@@ -559,14 +542,31 @@ Node classes list of onprem provider.
 - **diagrams.onprem.cisco.Workstation**
 - **diagrams.onprem.cisco.WwwServer**
 
-## onprem.network
+## onprem.config
 
-- **diagrams.onprem.network.Internet**
+- **diagrams.onprem.config.Etcd**
+- **diagrams.onprem.config.Zookeeper**
 
-## onprem.api
+## onprem.web
 
-- **diagrams.onprem.api.Istio**
-- **diagrams.onprem.api.Kong**
-- **diagrams.onprem.api.Redhat3Scale**
-- **diagrams.onprem.api.Tyk**
-- **diagrams.onprem.api.Umbrella**
+- **diagrams.onprem.web.Apache**
+- **diagrams.onprem.web.Caddy**
+- **diagrams.onprem.web.Consul**
+- **diagrams.onprem.web.Envoy**
+- **diagrams.onprem.web.Haproxy**
+- **diagrams.onprem.web.Linkerd**
+- **diagrams.onprem.web.Nginx**
+- **diagrams.onprem.web.Pfsense**
+- **diagrams.onprem.web.Pomerium**
+- **diagrams.onprem.web.Traefik**
+
+## onprem.app
+
+- **diagrams.onprem.app.Gunicorn**
+- **diagrams.onprem.app.Javaee**
+- **diagrams.onprem.app.Jboss**
+- **diagrams.onprem.app.Tomcat**
+- **diagrams.onprem.app.Uvicorn**
+- **diagrams.onprem.app.Weblogic**
+- **diagrams.onprem.app.Websphere**
+- **diagrams.onprem.app.Wildfly**

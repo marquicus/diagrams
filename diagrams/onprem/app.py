@@ -3,40 +3,40 @@
 from . import _OnPrem
 
 
-class _Appserver(_OnPrem):
-    _type = "appserver"
-    _icon_dir = "resources/onprem/appserver"
+class _App(_OnPrem):
+    _type = "app"
+    _icon_dir = "resources/onprem/app"
 
 
-class Gunicorn(_Appserver):
+class Gunicorn(_App):
     _icon = "gunicorn.png"
 
 
-class Javaee(_Appserver):
+class Javaee(_App):
     _icon = "javaee.png"
 
 
-class Jboss(_Appserver):
+class Jboss(_App):
     _icon = "jboss.png"
 
 
-class Tomcat(_Appserver):
+class Tomcat(_App):
     _icon = "tomcat.png"
 
 
-class Uvicorn(_Appserver):
+class Uvicorn(_App):
     _icon = "uvicorn.png"
 
 
-class Weblogic(_Appserver):
+class Weblogic(_App):
     _icon = "weblogic.png"
 
 
-class Websphere(_Appserver):
+class Websphere(_App):
     _icon = "websphere.png"
 
 
-class Wildfly(_Appserver):
+class Wildfly(_App):
     _icon = "wildfly.png"
 
 
