@@ -24,7 +24,7 @@ if os.path.exists(readme_path):
 setup(
     long_description=readme,
     name='diagrams',
-    version='0.12.0',
+    version='0.13.0',
     description='Diagram as Code',
     python_requires='==3.*,>=3.6.0',
     project_urls={"homepage": "https://diagrams.mingrammer.com", "repository": "https://github.com/mingrammer/diagrams"},
@@ -33,7 +33,7 @@ setup(
     license='MIT',
     packages=['diagrams', 'diagrams.alibabacloud', 'diagrams.aws', 'diagrams.azure', 'diagrams.base', 'diagrams.custom', 'diagrams.gcp', 'diagrams.k8s', 'diagrams.oci', 'diagrams.onprem', 'diagrams.programming'],
     package_dir={"": "."},
+    package_data={"resources": ["resources/*"]},
     install_requires=['contextvars==2.*,>=2.4.0; python_version == "3.6.*" and python_version >= "3.6.0"', 'dephell==0.*,>=0.8.3', 'graphviz==0.*,>=0.13.2', 'jinja2==2.*,>=2.10.0'],
     extras_require={"dev": ["black==19.*,>=19.0.0", "isort==4.*,>=4.3.0", "pylint==2.*,>=2.4.0", "pytest==3.*,>=3.0.0", "rope==0.*,>=0.14.0"]},
-    include_package_data=True,
 )
