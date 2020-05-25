@@ -8,40 +8,8 @@ class _Network(_OnPrem):
     _icon_dir = "resources/onprem/network"
 
 
-class Consul(_Network):
-    _icon = "consul.png"
-
-
-class Envoy(_Network):
-    _icon = "envoy.png"
-
-
-class Etcd(_Network):
-    _icon = "etcd.png"
-
-
 class Internet(_Network):
     _icon = "internet.png"
-
-
-class Linkerd(_Network):
-    _icon = "linkerd.png"
-
-
-class Pfsense(_Network):
-    _icon = "pfsense.png"
-
-
-class Pomerium(_Network):
-    _icon = "pomerium.png"
-
-
-class Vyos(_Network):
-    _icon = "vyos.png"
-
-
-class Zookeeper(_Network):
-    _icon = "zookeeper.png"
 
 
 # Aliases

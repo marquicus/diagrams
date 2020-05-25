@@ -28,4 +28,8 @@ class Vault(_Security):
     _icon = "vault.png"
 
 
+class Vyos(_Security):
+    _icon = "vyos.png"
+
+
 # Aliases

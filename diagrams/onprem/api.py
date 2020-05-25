@@ -3,28 +3,28 @@
 from . import _OnPrem
 
 
-class _Apigateway(_OnPrem):
-    _type = "apigateway"
-    _icon_dir = "resources/onprem/apigateway"
+class _Api(_OnPrem):
+    _type = "api"
+    _icon_dir = "resources/onprem/api"
 
 
-class Istio(_Apigateway):
+class Istio(_Api):
     _icon = "istio.png"
 
 
-class Kong(_Apigateway):
+class Kong(_Api):
     _icon = "kong.png"
 
 
-class Redhat3Scale(_Apigateway):
+class Redhat3Scale(_Api):
     _icon = "redhat3scale.png"
 
 
-class Tyk(_Apigateway):
+class Tyk(_Api):
     _icon = "tyk.png"
 
 
-class Umbrella(_Apigateway):
+class Umbrella(_Api):
     _icon = "umbrella.png"
 
 
