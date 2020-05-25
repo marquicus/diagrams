@@ -34,6 +34,6 @@ setup(
     packages=['diagrams', 'diagrams.alibabacloud', 'diagrams.aws', 'diagrams.azure', 'diagrams.base', 'diagrams.custom', 'diagrams.gcp', 'diagrams.k8s', 'diagrams.oci', 'diagrams.onprem', 'diagrams.programming'],
     package_dir={"": "."},
     package_data={},
-    install_requires=['contextvars==2.*,>=2.4.0; python_version == "3.6.*" and python_version >= "3.6.0"', 'graphviz==0.*,>=0.13.2', 'jinja2==2.*,>=2.10.0'],
+    install_requires=['contextvars==2.*,>=2.4.0; python_version == "3.6.*" and python_version >= "3.6.0"', 'dephell==0.*,>=0.8.3', 'graphviz==0.*,>=0.13.2', 'jinja2==2.*,>=2.10.0'],
     extras_require={"dev": ["black==19.*,>=19.0.0", "isort==4.*,>=4.3.0", "pylint==2.*,>=2.4.0", "pytest==3.*,>=3.0.0", "rope==0.*,>=0.14.0"]},
 )
