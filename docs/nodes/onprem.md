@@ -13,6 +13,7 @@ Node classes list of onprem provider.
 - **diagrams.onprem.analytics.Hive**
 - **diagrams.onprem.analytics.Metabase**
 - **diagrams.onprem.analytics.Norikra**
+- **diagrams.onprem.analytics.Redash**
 - **diagrams.onprem.analytics.Spark**
 - **diagrams.onprem.analytics.Storm**
 - **diagrams.onprem.analytics.Tableau**
@@ -67,6 +68,7 @@ Node classes list of onprem provider.
 - **diagrams.onprem.database.Oracle**
 - **diagrams.onprem.database.Postgresql**, **PostgreSQL** (alias)
 - **diagrams.onprem.database.Scylla**
+- **diagrams.onprem.database.Sqlite**
 
 ## onprem.etl
 
@@ -127,14 +129,6 @@ Node classes list of onprem provider.
 - **diagrams.onprem.network.Vyos**, **VyOS** (alias)
 - **diagrams.onprem.network.Zookeeper**
 
-## onprem.queue
-
-- **diagrams.onprem.queue.Activemq**, **ActiveMQ** (alias)
-- **diagrams.onprem.queue.Celery**
-- **diagrams.onprem.queue.Kafka**
-- **diagrams.onprem.queue.Rabbitmq**, **RabbitMQ** (alias)
-- **diagrams.onprem.queue.Zeromq**, **ZeroMQ** (alias)
-
 ## onprem.search
 
 - **diagrams.onprem.search.Elasticsearch**
@@ -142,6 +136,7 @@ Node classes list of onprem provider.
 
 ## onprem.security
 
+- **diagrams.onprem.security.Gluu**
 - **diagrams.onprem.security.Openldap**
 - **diagrams.onprem.security.Openvas**
 - **diagrams.onprem.security.Trivy**
@@ -187,11 +182,13 @@ Node classes list of onprem provider.
 - **diagrams.onprem.apigateway.Istio**
 - **diagrams.onprem.apigateway.Kong**
 - **diagrams.onprem.apigateway.Redhat3Scale**
+- **diagrams.onprem.apigateway.Tyk**
 - **diagrams.onprem.apigateway.Umbrella**
 
 ## onprem.callcenter
 
 - **diagrams.onprem.callcenter.Asterisk**
+- **diagrams.onprem.callcenter.Issabel**
 - **diagrams.onprem.callcenter.Vicidial**
 
 ## onprem.ecm
@@ -202,6 +199,8 @@ Node classes list of onprem provider.
 
 ## onprem.os
 
+- **diagrams.onprem.os.Alpine**
+- **diagrams.onprem.os.Archlinux**
 - **diagrams.onprem.os.Centos**
 - **diagrams.onprem.os.Debian**
 - **diagrams.onprem.os.Redhat**
@@ -228,6 +227,7 @@ Node classes list of onprem provider.
 ## onprem.erp
 
 - **diagrams.onprem.erp.Erpnext**
+- **diagrams.onprem.erp.ObusinessSuite**
 - **diagrams.onprem.erp.Odoo**
 
 ## onprem.mgmt
@@ -255,3 +255,25 @@ Node classes list of onprem provider.
 
 - **diagrams.onprem.rules.Drools**
 - **diagrams.onprem.rules.Openltablets**
+
+## onprem.shortener
+
+- **diagrams.onprem.shortener.Pygmy**
+- **diagrams.onprem.shortener.Yourls**
+
+## onprem.realtime
+
+- **diagrams.onprem.realtime.Deepstreamio**
+- **diagrams.onprem.realtime.Socketsio**
+
+## onprem.bus
+
+- **diagrams.onprem.bus.Activemq**
+- **diagrams.onprem.bus.Celery**
+- **diagrams.onprem.bus.FuseEsb**
+- **diagrams.onprem.bus.Ibmmq**
+- **diagrams.onprem.bus.Kafka**
+- **diagrams.onprem.bus.Rabbitmq**
+- **diagrams.onprem.bus.Solace**
+- **diagrams.onprem.bus.Sonicmq**
+- **diagrams.onprem.bus.Zeromq**

@@ -12,6 +12,10 @@ class Erpnext(_Erp):
     _icon = "erpnext.png"
 
 
+class ObusinessSuite(_Erp):
+    _icon = "obusiness-suite.png"
+
+
 class Odoo(_Erp):
     _icon = "odoo.png"
 

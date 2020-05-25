@@ -8,6 +8,10 @@ class _Security(_OnPrem):
     _icon_dir = "resources/onprem/security"
 
 
+class Gluu(_Security):
+    _icon = "gluu.png"
+
+
 class Openldap(_Security):
     _icon = "openldap.png"
 

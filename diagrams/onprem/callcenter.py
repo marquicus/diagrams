@@ -12,6 +12,10 @@ class Asterisk(_Callcenter):
     _icon = "asterisk.png"
 
 
+class Issabel(_Callcenter):
+    _icon = "issabel.png"
+
+
 class Vicidial(_Callcenter):
     _icon = "vicidial.png"
 

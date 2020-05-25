@@ -14,6 +14,7 @@ python = "^3.6"
 graphviz = "^0.13.2"
 jinja2 = "^2.10"
 contextvars = { version = "^2.4", python = "~3.6" }
+dephell = "^0.8.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
@@ -24,3 +25,7 @@ isort = "^4.3"
 
 [tool.black]
 line-length = 120
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}

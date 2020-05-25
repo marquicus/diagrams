@@ -8,6 +8,14 @@ class _Os(_OnPrem):
     _icon_dir = "resources/onprem/os"
 
 
+class Alpine(_Os):
+    _icon = "alpine.png"
+
+
+class Archlinux(_Os):
+    _icon = "archlinux.png"
+
+
 class Centos(_Os):
     _icon = "centos.png"
 

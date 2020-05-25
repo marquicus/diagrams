@@ -80,6 +80,10 @@ class Scylla(_Database):
     _icon = "scylla.png"
 
 
+class Sqlite(_Database):
+    _icon = "sqlite.png"
+
+
 # Aliases
 
 ClickHouse = Clickhouse

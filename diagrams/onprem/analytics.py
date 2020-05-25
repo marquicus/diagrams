@@ -32,6 +32,10 @@ class Norikra(_Analytics):
     _icon = "norikra.png"
 
 
+class Redash(_Analytics):
+    _icon = "redash.png"
+
+
 class Spark(_Analytics):
     _icon = "spark.png"
 

@@ -20,6 +20,10 @@ class Redhat3Scale(_Apigateway):
     _icon = "redhat3scale.png"
 
 
+class Tyk(_Apigateway):
+    _icon = "tyk.png"
+
+
 class Umbrella(_Apigateway):
     _icon = "umbrella.png"
 
