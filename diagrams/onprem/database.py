@@ -68,6 +68,14 @@ class Ogg(_Database):
     _icon = "ogg.png"
 
 
+class OracleCilinder(_Database):
+    _icon = "oracle-cilinder.png"
+
+
+class OracleRac(_Database):
+    _icon = "oracle-rac.png"
+
+
 class Oracle(_Database):
     _icon = "oracle.png"
 

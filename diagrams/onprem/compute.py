@@ -8,12 +8,24 @@ class _Compute(_OnPrem):
     _icon_dir = "resources/onprem/compute"
 
 
+class Array(_Compute):
+    _icon = "array.png"
+
+
+class Cloud(_Compute):
+    _icon = "cloud.png"
+
+
 class Nomad(_Compute):
     _icon = "nomad.png"
 
 
 class Server(_Compute):
     _icon = "server.png"
+
+
+class Sla(_Compute):
+    _icon = "sla.png"
 
 
 # Aliases

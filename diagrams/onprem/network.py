@@ -8,8 +8,28 @@ class _Network(_OnPrem):
     _icon_dir = "resources/onprem/network"
 
 
+class Cloud2Arrow(_Network):
+    _icon = "cloud-2arrow.png"
+
+
+class CloudGear(_Network):
+    _icon = "cloud-gear.png"
+
+
+class CloudIp(_Network):
+    _icon = "cloud-ip.png"
+
+
+class ConnectedPoints(_Network):
+    _icon = "connected-points.png"
+
+
 class Internet(_Network):
     _icon = "internet.png"
+
+
+class LoadBalancing(_Network):
+    _icon = "load-balancing.png"
 
 
 # Aliases

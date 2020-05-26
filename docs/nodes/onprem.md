@@ -40,8 +40,11 @@ Node classes list of onprem provider.
 
 ## onprem.compute
 
+- **diagrams.onprem.compute.Array**
+- **diagrams.onprem.compute.Cloud**
 - **diagrams.onprem.compute.Nomad**
 - **diagrams.onprem.compute.Server**
+- **diagrams.onprem.compute.Sla**
 
 ## onprem.container
 
@@ -65,6 +68,8 @@ Node classes list of onprem provider.
 - **diagrams.onprem.database.Mysql**, **MySQL** (alias)
 - **diagrams.onprem.database.Neo4J**
 - **diagrams.onprem.database.Ogg**
+- **diagrams.onprem.database.OracleCilinder**
+- **diagrams.onprem.database.OracleRac**
 - **diagrams.onprem.database.Oracle**
 - **diagrams.onprem.database.Postgresql**, **PostgreSQL** (alias)
 - **diagrams.onprem.database.Scylla**
@@ -124,10 +129,15 @@ Node classes list of onprem provider.
 
 ## onprem.security
 
+- **diagrams.onprem.security.CloudAdc**
+- **diagrams.onprem.security.CloudPortal**
 - **diagrams.onprem.security.Gluu**
+- **diagrams.onprem.security.LockinContainer**
 - **diagrams.onprem.security.Openldap**
 - **diagrams.onprem.security.Openvas**
+- **diagrams.onprem.security.RadarDetection**
 - **diagrams.onprem.security.Trivy**
+- **diagrams.onprem.security.UserValid**
 - **diagrams.onprem.security.Vault**
 - **diagrams.onprem.security.Vyos**
 
@@ -242,7 +252,12 @@ Node classes list of onprem provider.
 
 ## onprem.network
 
+- **diagrams.onprem.network.Cloud2Arrow**
+- **diagrams.onprem.network.CloudGear**
+- **diagrams.onprem.network.CloudIp**
+- **diagrams.onprem.network.ConnectedPoints**
 - **diagrams.onprem.network.Internet**
+- **diagrams.onprem.network.LoadBalancing**
 
 ## onprem.api
 
@@ -570,3 +585,11 @@ Node classes list of onprem provider.
 - **diagrams.onprem.app.Weblogic**
 - **diagrams.onprem.app.Websphere**
 - **diagrams.onprem.app.Wildfly**
+
+## onprem.storage
+
+- **diagrams.onprem.storage.ArrayCilinder**
+- **diagrams.onprem.storage.Array**
+- **diagrams.onprem.storage.Database**
+- **diagrams.onprem.storage.Nas**
+- **diagrams.onprem.storage.San**

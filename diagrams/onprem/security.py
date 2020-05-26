@@ -8,8 +8,20 @@ class _Security(_OnPrem):
     _icon_dir = "resources/onprem/security"
 
 
+class CloudAdc(_Security):
+    _icon = "cloud-adc.png"
+
+
+class CloudPortal(_Security):
+    _icon = "cloud-portal.png"
+
+
 class Gluu(_Security):
     _icon = "gluu.png"
+
+
+class LockinContainer(_Security):
+    _icon = "lockin-container.png"
 
 
 class Openldap(_Security):
@@ -20,8 +32,16 @@ class Openvas(_Security):
     _icon = "openvas.png"
 
 
+class RadarDetection(_Security):
+    _icon = "radar-detection.png"
+
+
 class Trivy(_Security):
     _icon = "trivy.png"
+
+
+class UserValid(_Security):
+    _icon = "user-valid.png"
 
 
 class Vault(_Security):
