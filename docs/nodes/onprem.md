@@ -159,15 +159,15 @@ Node classes list of onprem provider.
 
 ## onprem.bus
 
-- **diagrams.onprem.bus.Activemq**
+- **diagrams.onprem.bus.Activemq**, **ActiveMQ** (alias)
 - **diagrams.onprem.bus.Celery**
 - **diagrams.onprem.bus.FuseEsb**
 - **diagrams.onprem.bus.Ibmmq**
 - **diagrams.onprem.bus.Kafka**
-- **diagrams.onprem.bus.Rabbitmq**
+- **diagrams.onprem.bus.Rabbitmq**, **RabbitMQ** (alias)
 - **diagrams.onprem.bus.Solace**
 - **diagrams.onprem.bus.Sonicmq**
-- **diagrams.onprem.bus.Zeromq**
+- **diagrams.onprem.bus.Zeromq**, **ZeroMQ** (alias)
 
 ## onprem.callcenter
 
@@ -257,6 +257,8 @@ Node classes list of onprem provider.
 - **diagrams.onprem.network.CloudIp**
 - **diagrams.onprem.network.ConnectedPoints**
 - **diagrams.onprem.network.Internet**
+- **diagrams.onprem.network.LoadBalancerCloud**
+- **diagrams.onprem.network.LoadBalancer**
 - **diagrams.onprem.network.LoadBalancing**
 
 ## onprem.api
@@ -559,7 +561,7 @@ Node classes list of onprem provider.
 
 ## onprem.config
 
-- **diagrams.onprem.config.Etcd**
+- **diagrams.onprem.config.Etcd**, **ETCD** (alias)
 - **diagrams.onprem.config.Zookeeper**
 
 ## onprem.web
@@ -568,10 +570,10 @@ Node classes list of onprem provider.
 - **diagrams.onprem.web.Caddy**
 - **diagrams.onprem.web.Consul**
 - **diagrams.onprem.web.Envoy**
-- **diagrams.onprem.web.Haproxy**
+- **diagrams.onprem.web.Haproxy**, **HAProxy** (alias)
 - **diagrams.onprem.web.Linkerd**
 - **diagrams.onprem.web.Nginx**
-- **diagrams.onprem.web.Pfsense**
+- **diagrams.onprem.web.Pfsense**, **PFSense** (alias)
 - **diagrams.onprem.web.Pomerium**
 - **diagrams.onprem.web.Traefik**
 
@@ -593,3 +595,11 @@ Node classes list of onprem provider.
 - **diagrams.onprem.storage.Database**
 - **diagrams.onprem.storage.Nas**
 - **diagrams.onprem.storage.San**
+
+## onprem.f5
+
+- **diagrams.onprem.f5.Appliance**
+- **diagrams.onprem.f5.F5**
+- **diagrams.onprem.f5.Ltm**
+- **diagrams.onprem.f5.Swgs**
+- **diagrams.onprem.f5.Viprion**

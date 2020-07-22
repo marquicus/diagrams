@@ -45,3 +45,7 @@ class Zeromq(_Bus):
 
 
 # Aliases
+
+ActiveMQ = Activemq
+RabbitMQ = Rabbitmq
+ZeroMQ = Zeromq

@@ -17,3 +17,5 @@ class Zookeeper(_Config):
 
 
 # Aliases
+
+ETCD = Etcd

@@ -28,13 +28,16 @@ class Internet(_Network):
     _icon = "internet.png"
 
 
+class LoadBalancerCloud(_Network):
+    _icon = "load-balancer-cloud.png"
+
+
+class LoadBalancer(_Network):
+    _icon = "load-balancer.png"
+
+
 class LoadBalancing(_Network):
     _icon = "load-balancing.png"
 
 
 # Aliases
-
-ETCD = Etcd
-HAProxy = Haproxy
-PFSense = Pfsense
-VyOS = Vyos

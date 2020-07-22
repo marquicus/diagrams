@@ -49,3 +49,6 @@ class Traefik(_Web):
 
 
 # Aliases
+
+HAProxy = Haproxy
+PFSense = Pfsense

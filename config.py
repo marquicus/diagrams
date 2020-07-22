@@ -102,13 +102,14 @@ ALIASES = {
             "Fluentbit": "FluentBit",
             "Logstash": "LogStash",
         },
-        "network": {
+        "config": {
             "Etcd": "ETCD",
+        },
+        "web": {
             "Haproxy": "HAProxy",
             "Pfsense": "PFSense",
-            "Vyos": "VyOS"
         },
-        "queue": {
+        "bus": {
             "Activemq": "ActiveMQ",
             "Rabbitmq": "RabbitMQ",
             "Zeromq": "ZeroMQ",
@@ -184,6 +185,7 @@ ALIASES = {
             "IdentityAndAccessManagementIam": "IAM",
             "KeyManagementService": "KMS",
             "ResourceAccessManager": "RAM",
+            "Vyos": "VyOS"
         },
         "storage": {
             "CloudendureDisasterRecovery": "CDR",
